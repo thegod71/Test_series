@@ -31,6 +31,14 @@ export default function Navbar({ onOpenModal }) {
             OFFLINE & ONLINE
           </div>
 
+          {/* 2027 Schedule Jump Link */}
+          <a
+            href="#upsc-2027-guide"
+            className="hidden md:inline-flex items-center px-3 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-[#15376f] text-xs sm:text-sm font-bold hover:bg-blue-100 transition-colors shadow-xs"
+          >
+            2027 Batch Guide
+          </a>
+
           {/* Quick Contact / Enquire Button */}
           <button
             onClick={() => onOpenModal('Header Enquire CTA')}

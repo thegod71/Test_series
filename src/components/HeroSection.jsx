@@ -51,6 +51,15 @@ export default function HeroSection({ onLeadSubmitted }) {
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed max-w-lg">
                 {heroContent.description}
               </p>
+              <div className="pt-1.5">
+                <a
+                  href="#upsc-2027-guide"
+                  className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-[#c28422] hover:text-[#9e6712] transition-colors underline underline-offset-4 decoration-amber-400 group"
+                >
+                  <span>Explore Complete 54-Test Schedule &amp; Syllabus Architecture</span>
+                  <span className="group-hover:translate-y-0.5 transition-transform">↓</span>
+                </a>
+              </div>
             </div>
 
             {/* Mobile / Tablet View of the Student Image */}

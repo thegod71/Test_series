@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import WhyChooseUs from './components/WhyChooseUs';
 import WhatYouGet from './components/WhatYouGet';
+import UpscTestSeriesArticle from './components/UpscTestSeriesArticle';
 import Testimonials from './components/Testimonials';
 import Programmes from './components/Programmes';
 import FAQSection from './components/FAQSection';
@@ -16,9 +17,8 @@ export default function App() {
   const [toastMessage, setToastMessage] = useState('');
   const [showToast, setShowToast] = useState(false);
 
-  // Requirement: "only add a pop up form when page is open"
+  // Graceful automatic trigger on page load (600ms delay for smooth perception)
   useEffect(() => {
-    // Graceful automatic trigger on page load (600ms delay for smooth perception)
     const timer = setTimeout(() => {
       setIsModalOpen(true);
     }, 600);
@@ -56,6 +56,9 @@ export default function App() {
 
         {/* What You Get: Dark Navy Banner with Booklets, Checklist, and Hand Writing Photo */}
         <WhatYouGet onOpenModal={handleOpenModal} />
+
+        {/* CREATIVE ADD-ON: Comprehensive UPSC CSE 2027 All India Pre-cum-Mains Testing Ecosystem */}
+        <UpscTestSeriesArticle onOpenModal={handleOpenModal} />
 
         {/* Testimonials: Real student reviews with ratings and ranks */}
         <Testimonials />
