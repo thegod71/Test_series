@@ -69,56 +69,44 @@ export default function UpscTestSeriesArticle({ onOpenModal }) {
       {/* The Complete Article with Exact Markup & Styling */}
       <div className="page">
         <article className="content" itemScope itemType="https://schema.org/WebPage">
-          {/* H1 Main Heading */}
-          <h1>UPSC Prelims and Mains Test Series | IAS GS Test Series 2027</h1>
+          {/* Top Decorative Gradient Accent Bar */}
+          <div className="h-2 w-full bg-gradient-to-r from-[#102a56] via-[#2259d6] to-[#7147d7]" />
 
-          {/* Intro Paragraph 1 */}
-          <p>
-            Completing the UPSC syllabus once is only half the battle. In the actual exam hall, aspirants lose marks not because they haven't read standard books, but because of two-option confusion in Prelims, poor time allocation in CSAT, and unstructured answers in Mains. A strategically designed UPSC Test Series bridges the gap between passive reading and exam-day execution.
-          </p>
-
-          {/* Intro Paragraph 2 */}
-          <p>
-            Dhyeya IAS presents the UPSC-2027 All India Pre-cum-Mains Test Series—a rigorous, research-backed testing ecosystem built for serious Civil Services aspirants. Featuring 54 comprehensive tests, bilingual support (English &amp; Hindi), flexible online and offline modes, and a Personal Report Card after every test, this UPSC Test Series turns every mock paper into a measurable step toward the final merit list.
-          </p>
-
-          {/* Hero CTAs */}
-          <div className="cta-row hero-ctas" aria-label="UPSC Test Series actions">
+          {/* Elegant Top Document Header Bar */}
+          <div className="px-6 sm:px-10 lg:px-14 py-4 border-b border-gray-100 bg-gradient-to-r from-blue-50/60 via-white to-indigo-50/60 flex flex-wrap items-center justify-between gap-3">
+            <div className="flex items-center gap-2.5">
+              <span className="px-3 py-1 rounded-full bg-[#102a56] text-white text-xs font-bold uppercase tracking-wider shadow-2xs">
+                Official Programme Guide
+              </span>
+              <span className="text-xs font-semibold text-gray-500">
+                UPSC CSE 2027 • 54 Tests Architecture
+              </span>
+            </div>
             <a
-              className="btn btn-primary"
               href={googleDocUrl}
               target="_blank"
               rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-[#2259d6] hover:text-[#7147d7] hover:underline"
             >
-              Enrol Now in 2027 Batch
-            </a>
-            <a
-              className="btn btn-secondary"
-              href={googleDocUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download Complete Test Schedule PDF
-            </a>
-            <a className="btn btn-outline" href="#free-mock-test">
-              Attempt Free Open UPSC Mock Test
+              <span>Download Official Schedule PDF</span>
+              <span>→</span>
             </a>
           </div>
 
-          <hr />
-
           {/* Key Feature Table Section */}
-          <h2 id="upsc-test-series">UPSC CSE 2027 — All India Pre-Cum-Mains Test Series</h2>
+          <h2 id="upsc-test-series" className="!mt-8">
+            UPSC CSE 2027 — All India Pre-Cum-Mains Test Series
+          </h2>
           <h3>A Comprehensive Assessment Programme for UPSC Civil Services Examination 2027</h3>
 
           <table>
             <thead>
               <tr>
-                <th>
-                  <strong>Key Feature</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Key Feature</strong>
                 </th>
-                <th>
-                  <strong>Description</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Description</strong>
                 </th>
               </tr>
             </thead>
@@ -201,23 +189,23 @@ export default function UpscTestSeriesArticle({ onOpenModal }) {
           <table>
             <thead>
               <tr>
-                <th>
-                  <strong>Package Name</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Package Name</strong>
                 </th>
-                <th>
-                  <strong>Total Tests Breakdown</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Total Tests Breakdown</strong>
                 </th>
-                <th>
-                  <strong>Mode &amp; Medium</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Mode &amp; Medium</strong>
                 </th>
-                <th>
-                  <strong>Batch Starting</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Batch Starting</strong>
                 </th>
-                <th>
-                  <strong>Schedule PDF</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Schedule PDF</strong>
                 </th>
-                <th>
-                  <strong>Action</strong>
+                <th style={{ color: '#ffffff' }}>
+                  <strong style={{ color: '#ffffff' }}>Action</strong>
                 </th>
               </tr>
             </thead>

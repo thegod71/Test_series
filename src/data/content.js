@@ -11,8 +11,8 @@ export const siteConfig = {
 
 export const heroContent = {
   badge: "TEST SERIES 2026-27",
-  titlePart1: "Practice Today.",
-  titlePart2: "Perform Tomorrow.",
+  titlePart1: "UPSC Prelims and Mains Test Series",
+  titlePart2: "IAS GS Test Series 2027",
   subheading: "Dhyeya IAS Lucknow Test Series for UPSC & UPPCS",
   description: "Real exam pattern. Expert evaluation. Detailed feedback. Improve your answer writing and test-taking strategy.",
   stats: [
