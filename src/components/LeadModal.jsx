@@ -125,7 +125,7 @@ export default function LeadModal({ isOpen, onClose, initialProgramme = '', onLe
       <div className="relative bg-white rounded-2xl sm:rounded-3xl shadow-2xl max-w-lg w-full z-10 border border-amber-200/80 overflow-hidden">
         
         {/* Top Gold Accent Bar */}
-        <div className="h-2 bg-gradient-to-r from-amber-600 via-[#c28422] to-amber-400" />
+        <div className="h-2 bg-[#172746] " />
 
         {/* Close Button */}
         <button

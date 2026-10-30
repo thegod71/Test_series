@@ -10,7 +10,7 @@ export default function Navbar({ onOpenModal }) {
         {/* Exact Brand Logo from Original Design */}
         <a href="#top" className="flex items-center gap-2 group focus:outline-none">
           <img
-            src="/images/logo-exact.png"
+            src="/images/Logo1.jpeg"
             alt="Dhyeya IAS - most trusted since 2005 - LUCKNOW"
             className="h-10 sm:h-12 w-auto object-contain hover:scale-102 transition-transform duration-200"
           />
@@ -42,7 +42,7 @@ export default function Navbar({ onOpenModal }) {
           {/* Quick Contact / Enquire Button */}
           <button
             onClick={() => onOpenModal('Header Enquire CTA')}
-            className="inline-flex items-center gap-1.5 bg-[#c28422] hover:bg-[#a86e15] text-white text-xs sm:text-sm font-bold px-3.5 sm:px-4 py-2 rounded-lg shadow-sm hover:shadow transition-all duration-200 cursor-pointer"
+            className="inline-flex items-center gap-1.5 bg-[#ffa834] hover:bg-[#ff7b39] text-white text-xs sm:text-sm font-bold px-3.5 sm:px-4 py-2 rounded-lg shadow-sm hover:shadow transition-all duration-200 cursor-pointer"
           >
             <Sparkles className="w-3.5 h-3.5" />
             <span>Enquire</span>

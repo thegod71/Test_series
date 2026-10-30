@@ -32,11 +32,11 @@ export default function Testimonials() {
                     alt={item.name}
                     className="w-13 h-13 rounded-full object-cover flex-shrink-0 shadow-xs"
                   />
-                  <p className="text-xs text-gray-700 italic leading-relaxed">
+                  
+                </div>
+                <p className="text-xs text-gray-700 italic leading-relaxed">
                     "{item.quote}"
                   </p>
-                </div>
-
                 {/* Author Info */}
                 <div className="mt-3 pl-1">
                   <h4 className="text-xs sm:text-sm font-bold text-gray-950 font-serif">

@@ -169,16 +169,18 @@ export default function UpscTestSeriesArticle({ onOpenModal }) {
           </table>
 
           {/* Programme Objective & Fee Structure Section */}
-          <h2>
-            Programme Objective: To provide systematic practice, performance tracking, and targeted improvement throughout the UPSC CSE 2027 preparation cycle.  (
-            <a
-              href={googleDocUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Enroll now
-            </a>
-            )  Dhyeya IAS UPSC Test Series 2027: Packages, Schedule &amp; Fee Structure
+          <h3>
+            Programme Objective: To provide systematic practice, performance tracking, and targeted improvement throughout the UPSC CSE 2027 preparation cycle.  
+              <a
+                className="inline-flex items-center gap-1.5 bg-gradient-to-r from-[#ffb547] via-[#ffa834] to-[#ff7b39] hover:from-[#ffa834] hover:to-[#ff6d24] text-white text-xs sm:text-sm font-bold px-3.5 sm:px-4 py-2 rounded-lg shadow-sm hover:shadow transition-all duration-200 cursor-pointer"
+                href={googleDocUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Enroll now
+              </a>
+             </h3> 
+            <h2>Dhyeya IAS UPSC Test Series 2027: Packages, Schedule &amp; Fee Structure
           </h2>
 
           <p>

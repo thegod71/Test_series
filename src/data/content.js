@@ -84,30 +84,57 @@ export const whatYouGetContent = {
 };
 
 export const testimonials = [
+   {
+    id: "testi-2",
+    name: "Ananaya Trivedi",
+    examTag: "Rank 2 (SDM)",
+    quote: "Regular tests and evaluation disciplined my preparation. The model answers improved my answer writing a lot.",
+    rating: 5,
+    avatar: "/WhatsApp Image 2026-10-30 at 18.15.26.jpeg",
+  },
   {
     id: "testi-1",
-    name: "Aman Singh",
-    examTag: "UPSC CSE 2024 (Interview)",
+    name: "Anamika Mishra",
+    examTag: "Rank 4 (SDM)",
     quote: "The test series helped me understand my weak areas. The feedback was very detailed and useful.",
     rating: 5,
-    avatar: "/images/avatar-aman.png",
+    avatar: "/Anamika.jpeg",
+  },
+ 
+  {
+    id: "testi-3",
+    name: "Deepti Verma",
+    examTag: "Rank 6 (SDM)",
+    quote: "The performance analysis gave me clarity on where to focus. Highly recommended for serious aspirants.",
+    rating: 5,
+    avatar: "/depiti.jpeg",
   },
   {
     id: "testi-2",
-    name: "Ritika Sharma",
-    examTag: "UPPCS 2023",
+    name: "Ananaya Trivedi",
+    examTag: "Rank 2 (SDM)",
     quote: "Regular tests and evaluation disciplined my preparation. The model answers improved my answer writing a lot.",
     rating: 5,
-    avatar: "/images/avatar-ritika.png",
+    avatar: "/WhatsApp Image 2026-10-30 at 18.15.26.jpeg",
   },
   {
+    id: "testi-1",
+    name: "Anamika Mishra",
+    examTag: "Rank 4 (SDM)",
+    quote: "The test series helped me understand my weak areas. The feedback was very detailed and useful.",
+    rating: 5,
+    avatar: "/Anamika.jpeg",
+  },
+ 
+  {
     id: "testi-3",
-    name: "Vivek Verma",
-    examTag: "UPSC CSE 2023 (Mains)",
+    name: "Deepti Verma",
+    examTag: "Rank 6 (SDM)",
     quote: "The performance analysis gave me clarity on where to focus. Highly recommended for serious aspirants.",
     rating: 5,
-    avatar: "/images/avatar-vivek.png",
+    avatar: "/depiti.jpeg",
   },
+  
 ];
 
 export const programmes = [
